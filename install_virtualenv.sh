@@ -1,7 +1,9 @@
 sudo apt install python-pip
-pip install virtualenv
+sudo apt install virtualenv
 pip install virtualenvwrapper 
-export WORKON_HOME=~/.virtualenv
 mkdir -p $WORKON_HOME
+# Add these two lines to the bottom of ~/.bashrc
+export WORKON_HOME=~/.virtualenv
 source ~/.local/bin/virtualenvwrapper.sh 
-mkvirtualenv --python=`which python3` tifl
+# Create new env 
+mkvirtualenv --python=`which python3` py3
