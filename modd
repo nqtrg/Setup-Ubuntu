@@ -1,0 +1,5 @@
+# Install [modd](github.com/cortesi)
+wget https://github-production-release-asset-2e65be.s3.amazonaws.com/46884490/f0bf3800-1d55-11e9-9960-a4960d71172d?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20190829%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20190829T184920Z&X-Amz-Expires=300&X-Amz-Signature=2b3b864847cb3b66810f0f0a3cc0437598bbb259811625603898ed7976cba9f7&X-Amz-SignedHeaders=host&actor_id=12858376&response-content-disposition=attachment%3B%20filename%3Dmodd-0.8-linux64.tgz&response-content-type=application%2Foctet-stream
+tar -xvzf modd-0.8-linux64.tgz
+cd modd-0.8-linux64
+sudo mv modd /usr/local/bin/modd 
