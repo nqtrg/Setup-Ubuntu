@@ -1,7 +1,9 @@
 # [Ubuntu] Some script setting up a new working environment:
-- `virtualenv` and `virtualenvwrapper`
-- `zsh` and `prezto`
-- Install software: 
+- virtualenv, virtualenvwrapper`
+- zsh, prezto
+- golang
+- [modd](github.com/cortesi)
+- Softwares:
 	- Git
 	- Hipchat
 	- Yakuake
