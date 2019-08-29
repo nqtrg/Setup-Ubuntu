@@ -6,6 +6,3 @@ sudo mv go /usr/local
 echo 'export PATH=$PATH:/usr/local/go/bin' >> ~/.zshrc
 echo 'export GOPATH=$HOME' >> ~/.zshrc
 . ~/.zshrc
-
-# Install [modd](github.com/cortesi)
-go get github.com/cortesi/modd/cmd/modd
