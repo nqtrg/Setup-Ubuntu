@@ -33,9 +33,6 @@ tar xzvf FoxitReader*.tar.gz
 sudo chmod a+x FoxitReader*.run
 sudo ./FoxitReader.*.run
 
-# Nodejs and npm
-sudo apt-get install nodejs
-
 # Tmux
 sudo apt-get install tmux
 
